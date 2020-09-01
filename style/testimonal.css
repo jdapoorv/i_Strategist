@@ -1,0 +1,106 @@
+body {
+  height: 100%;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  background-image: url("https://res.cloudinary.com/dtsebzfdk/image/upload/v1597147145/photo-1542090518-e0b1dbb65088_w6gwmf.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card{
+  border-color:#fff !important;
+}
+
+.card-0 {
+  width: calc(
+    400px + (480 - 400) * ((100vw - 320px) / (1600 - 320))
+  ) !important ;
+}
+
+p {
+  font-size: calc(
+    12px + (14 - 12) * ((100vw - 320px) / (1600 - 320))
+  ) !important;
+  line-height: 20px !important;
+  font-weight: 500;
+}
+
+.small {
+  letter-spacing: 0.5px !important;
+}
+
+.container {
+  margin: calc(90px + (150 - 90) * ((100vw - 320px) / (1600 - 320))) 0 !important;
+}
+
+.card-header {
+  min-height: calc(
+    145px + (160 - 145) * ((100vw - 320px) / (1600 - 320))
+  ) !important;
+  background: #627482 !important;
+}
+
+h6 {
+  font-size: calc(
+    16px + (18 - 16) * ((100vw - 320px) / (1600 - 320))
+  ) !important;
+  color: #333;
+}
+
+.card {
+  background: #e6e7e9 !important;
+}
+
+.img-1 {
+  position: relative;
+  width: calc(
+    130px + (179 - 130) * ((100vw - 320px) / (1600 - 320))
+  ) !important;
+  height: auto;
+  border-radius: 50%;
+  top: calc(-90px + (60 - 90) * ((100vw - 320px) / (1600 - 320))) !important;
+  box-shadow: 3px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.quotes {
+  position: relative;
+  top: calc(-60px + (50 - 60) * ((100vw - 320px) / (1600 - 320))) !important;
+}
+
+.quotes img {
+  width: calc(40px + (70 - 40) * ((100vw - 320px) / (1600 - 320))) !important;
+  height: auto;
+}
+
+.carousel-indicators li {
+  cursor: pointer !important;
+  border-radius: 50% !important;
+  width: 10px !important;
+  height: 10px !important;
+  opacity: 0.5 !important;
+  margin: 0 15px 18px 15px !important;
+  color: #333 !important;
+  background-color: #333 !important;
+  top: -10px !important;
+  position: relative !important;
+}
+
+#carouselExampleIndicators {
+  box-shadow: -5px 15px 25px rgba(7, 7, 7, 0.5) !important;
+}
+
+.carousel-inner {
+  border-radius: 15px !important;
+}

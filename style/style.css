@@ -11,7 +11,19 @@ body, html {
   padding-top: 1.2rem;
 }
 .contacts a{
-  margin:10px
+  margin:13px;
+  text-decoration:none;
+  color: #000000;;
+  font-weight: bold;
+}
+.fa-phone{
+  color: blue;
+}
+.fa-envelope{
+  color:red;
+}
+.contacts a:hover{
+  text-decoration-line: 1px solid red;
 }
 
 .main_hero{
@@ -95,6 +107,10 @@ background-color: #fe0000
 .sell_content p{
   font-size:14px,
 }
+.sell_content_para{
+  margin: 80px;
+  font-weight:400;
+}
 .para_skills{
   display: flex;
   direction:rtl;
@@ -116,4 +132,38 @@ background-color: #fe0000
 .class_benefits{
   text-align: center;
   font-size:3rem
+}
+/* instructor about  */
+.instructor{
+text-align: center;
+margin: 0 auto;
+padding-top: 60px;
+display: flex;
+background-color:#f8f9fa;
+border-radius:10px;
+left: 10;
+justify-content:space-evenly;
+padding-bottom: 50px;
+}
+.instructor_image img{
+  height: 350px;
+  width:auto;
+  border-radius:50%;
+}
+.instructor_subHeading {
+  color: #fe0000;
+}
+.instructor_name{
+  color: #fe0000;
+}
+.instructor_about{
+  text-align:left;
+  display: block;
+}
+.instructor_about_para{
+    width: 100%;
+    height: auto;
+}
+.instructor_about_title{
+  font-size:xx-large;
 }
