@@ -14,12 +14,14 @@
   <link rel="stylesheet" href="./style/card.css" type="text/css">
   <link rel="stylesheet" href="./style/day.css">
   <link rel="stylesheet" href="./style/countdown.css">
-  <link rel="stylesheet" href="./style/testm.css">
-  <script src="./js/testmin.js"></script>
+  <link rel="stylesheet" href="./style//testimony.css">
+  <script src="./js/testimony.js"></script>
   <link rel="stylesheet" href="./style/style.css">
   <link rel="stylesheet" href="./style/faq.css">
-  <link rel="stylesheet" href="./style//review.css">
+  <!-- <link rel="stylesheet" href="./style/review.css"> -->
   <!-- <link rel="stylesheet" href="./style/reset.css"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <title>i-STRATEGIST</title>
 </head>
 
@@ -27,12 +29,12 @@
   <!-- header -->
   <div class="main_hero">
     <div class="social_nav">
-      <div class="header">
+      <div class="header_main">
         <div class="heading_image">
           <a href="index.html" rel="noopener noreferrer"> <img src="./img/logo-white.png" alt="" srcset="">
         </div>
 
-        <div class="contacts">
+        <div class="contacts_phone">
           <a href="tel:+91 90823 20556
               "><i class="fa fa-phone"></i> Call me!</a>
           <a href="mailto:info@istrategist.com"><i class="fa fa-envelope"></i> Email Me</a>
@@ -47,7 +49,9 @@
           to
           make money actively.
         </h2>
-        <a href="#" class="btn">Buy Now</a>
+        <a href="#" class="btn_buy">
+          <h3>Buy Now</h3>
+        </a>
       </div>
     </section>
   </div>
@@ -155,8 +159,7 @@
       <img
         src='https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80' />
       <div class="text">
-        <h1>Day3
-          .</h1>
+        <h1>Day3</h1>
         <h2 class="animate-text">Plan: Making that awesome website of yours
         </h2>
         <p class="animate-text">This day will be the most interesting day as it will cover a complete trip from buying
@@ -294,204 +297,45 @@
       </p>
     </label>
   </div>
-  <!----------- REVIEW MARKUP START ----------------->
-  <!-- <div id="biziqrecentreviews-5"> <span style="display:none" id="dt">5</span>
-    <div class="biziq-review">
-      <div>
-        <div class="review-info">
-          <span class="review-date">May 14, 2018</span>
-          <span class="author-name">Alexis Starnes</span>
-          <span class="review-rating">
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-          </span>
-        </div>
-        <div class="widget-review-body">
-          <div class="review-body">
-            <span>"I have only been working with Pam for about 3 weeks and can already feel a huge improvement to my
-              body and mood. This is my first experience..."</span>
-          </div>
-        </div>
-      </div>
+  <!----------- REVIEW MARKUP START testimonial ----------------->
+  <!-- footer start  -->
+  <div class="foot-one">
+    <div class="col-md-4">
+      <img class="one" src="./img/logo-white.png">
     </div>
-    <div class="biziq-review">
-      <div>
-        <div class="review-info"><span class="review-date">April 11, 2018</span>
-          <span class="author-name">Brandi Young</span>
-          <span class="review-rating">
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-          </span></div>
-        <div class="widget-review-body">
-          <div class="review-body">
-            <span>"Every time I have trained with Pamela she targets the areas that I tell her I want to work on and I
-              am sore for days! She will push you to w..."</span>
-          </div>
-        </div>
-      </div>
+    <div class="col-md-4">
+      <h3>Contact Details</h3>
+      <p class="text-color">
+        Mobile: +91 90823 20556 <br>
+        Email: ragwatrushant@gmail.com
+        <br>
+      </p>
     </div>
-    <div class="biziq-review">
-      <div>
-        <div class="review-info"><span class="review-date">April 11, 2018</span>
-          <span class="author-name">Patti Kirchoff</span>
-          <span class="review-rating">
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-            <svg class="svg-inline--fa fa-star fa-w-18 final-star" aria-hidden="true" data-prefix="fa" data-icon="star"
-              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-              </path>
-            </svg>
-          </span>
-        </div>
-        <div class="widget-review-body">
-          <div class="review-body">
-            <span>"I have watched Pamela work with her clients and I am amazed at how individualized her approach is
-              to
-              each one. Her caring attitude as a trai..."</span>
-          </div>
-        </div>
-      </div>
+    <div class="payment_section">
+      <h3>Other Payment options
+      </h3>
+      <p class="text-color">Google Pay: 9082320556 <br>
+        PhonePe: 9082320556 <br>
+        Paytm: 9819312512 <br>
+        UPI: 9082320556@okbizaxis <br>
+      </p>
+    </div>
+    <div class="col-md-4 ">
+      <h3>Office Address</h3>
+      <p class="text-color">
+        Office No. 6, 1st floor, Kanti Terrace, <br> SV Road, Just above Mangesh Medical,<br> Next to Ram Mandir,
+        Kandivali West,<br> Mumbai - 400067
+      </p>
     </div>
   </div>
+  <div class="copyright">
+    <p class="copyright_text">©️ Copyright 2020 | i-Strategist Institute | All Rights Reserved | Privacy Policy</p>
   </div>
-  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
-  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
-  <div class="container px-3 px-md-4 py-5 mx-auto ">
-    <div class="row  d-flex justify-content-center ">
-      <div class="card-0 col-auto d-flex  justify-content-center text-center">
-        <div id="carouselExampleIndicators" class="carousel slide d-flex" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item">
-              <div class="card border-0 ">
-                <div class="card-header"></div>
-                <div class="card-body text-center "><img class="img-1 img-fluid" src="https://i.imgur.com/nUNhspp.jpg">
-                  <div class="quotes"><img class="quotes-img card-title" src="https://i.imgur.com/Gfbinmw.jpg" />
-                    <p class="card-text bold text-center px-md-3 intro">I believe that one defines oneself by
-                      reinvention. To not be like your parents. To not be like your friends. To be yourself. To cut
-                      yourself out of stone. </p>
-                    <h6 class="font-weight-bold mt-4  mb-4">Nicholas V./ Company Inc</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item active">
-              <div class="card border-0 ">
-                <div class="card-header"></div>
-                <div class="card-body text-center "><img class="img-1 img-fluid" src="https://i.imgur.com/kkjs7EC.png">
-                  <div class="quotes"><img class="quotes-img card-title" src="https://i.imgur.com/Gfbinmw.jpg" />
-                    <p class="card-text bold text-center px-md-3 intro">I believe that one defines oneself by
-                      reinvention. To not be like your parents. To not be like your friends. To be yourself. To cut
-                      yourself out of stone. </p>
-                    <h6 class="font-weight-bold mt-4  mb-4">Sophia V./ Company Inc</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card border-0 ">
-                <div class="card-header"></div>
-                <div class="card-body text-center "><img class="img-1 img-fluid" src="https://i.imgur.com/At1IG6H.png">
-                  <div class="quotes"><img class="quotes-img card-title" src="https://i.imgur.com/Gfbinmw.jpg" />
-                    <p class="card-text bold text-center px-md-3 intro">I believe that one defines oneself by
-                      reinvention. To not be like your parents. To not be like your friends. To be yourself. To cut
-                      yourself out of stone. </p>
-                    <h6 class="font-weight-bold mt-4  mb-4">Mike V./ Company Inc</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- What peolpe are saying style 5 -->
+
+  <!-- END OF TESTIMONIALS -->
   <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-  <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script> -->
+  <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
   <!-- adding javascript -->
   <script src="./js/main.js"></script>
   <script src="./js/countdown.js"></script>
